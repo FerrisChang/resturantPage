@@ -1,0 +1,29 @@
+#picture {
+    height: 300px;
+    width: auto;
+    border-radius: 100px;
+    border-style: solid;
+}
+
+#aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    height: 90%;
+    width: 90%;
+    border-radius: 25px;
+}
+
+.title {
+    background: white;
+    color: black;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 500px
+}
