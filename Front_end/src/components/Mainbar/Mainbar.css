@@ -9,6 +9,17 @@
   z-index: 1000;
 }
 
+#otherMenuBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: 	#000000;;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 #logoBtn {
   margin: 5px 15px;
   border-style: hidden;
@@ -29,6 +40,7 @@ button.menu-btn {
   overflow: hidden;
   cursor: pointer;
   margin-right: 5px;
+  color:white;
 }
 
 span.label {

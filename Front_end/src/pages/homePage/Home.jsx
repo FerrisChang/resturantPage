@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <div>
-      <Mainbar />
+      <Mainbar page='home'/>
       <Carousell />
 
       <div id='first-deals'>

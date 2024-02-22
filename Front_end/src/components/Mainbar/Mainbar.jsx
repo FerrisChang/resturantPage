@@ -2,10 +2,10 @@ import './Mainbar.css'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Mainbar = () => {
+const Mainbar = ({page}) => {
   const navigate = useNavigate()
   return (
-    <div id="menuBar">
+    <div id={`${page == 'home' ? "menuBar" : "otherMenuBar"}`}>
       <button id='logoBtn' onClick={() => {navigate('/')}}>BāoBāo</button>
 
       <div id="menubar-btn-container">
