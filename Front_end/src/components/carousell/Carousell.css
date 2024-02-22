@@ -2,27 +2,54 @@
   height: 100vh;
 }
 
-.transparentCover {
 
+.container {
+  position: relative;
+  height: 100vh; /* Adjust height as needed */
 }
 
-.rotate-slide{
-  height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;  
+.background-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
-.information-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+#bc-one {
+  background-image: url('../../assets/dragon.png');
+}
+
+#bc-two {
+  background-image: url('../../assets/dim-sum-chopsticks.webp');
+}
+
+#bc-three {
+  background-image: url('../../assets/catering.jpg');
 }
 
 #border {
   border-width: 5px;
   border-style:solid;
+  position: absolute;
+  bottom: 0;
 }
 
 button.menu-btn {
@@ -33,7 +60,6 @@ button.menu-btn {
   font-weight: 500;
   background: transparent;
   border: none;
-  position: relative;
   overflow: hidden;
   cursor: pointer;
   margin-right: 5px;

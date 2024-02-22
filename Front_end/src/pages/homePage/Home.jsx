@@ -34,7 +34,7 @@ const Home = () => {
       </div>
 
       <div id='second-deals'>
-        <div id='menu-card'>
+        <div className='menu-card' id='right'>
           <h1 className='deal-titles'>ANOUNCEMENT FILLER TEXT</h1>
           <p className='deal-supporting'>supporting text</p>
           <button className='deal-btn'>Link to deal</button>
@@ -44,7 +44,7 @@ const Home = () => {
 
       <div id='second-deals'>
         <img className='second-deal-pics' src={dimsum} alt="#" />
-        <div>
+        <div className='menu-card' id='left'>
           <h1 className='deal-titles'>ANOUNCEMENT FILLER TEXT</h1>
           <p className='deal-supporting'>supporting text</p>
           <button className='deal-btn'>Link to deal</button>

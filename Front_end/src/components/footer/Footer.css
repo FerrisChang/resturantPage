@@ -1,8 +1,6 @@
 #footer__body {
-  background: var(--main-bg-color);
-  color: var(--primary-font-color);
-  font-size: var(--body-text);
-  background-color: 	rgb(240, 234, 214);
+  color: white;
+  background-color: #edc27f;
 }
 @media (min-width: 750px) {
   #footer__body {
