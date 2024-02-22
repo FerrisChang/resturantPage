@@ -28,12 +28,24 @@ const Menu = () => {
         eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br/>
         nisi ut aliquip ex ea commodo consequat. </span>
-        <ul id='button-box'>
-          <li><button onClick={() => setActiveComponent('menu')}>MENU</button></li>
-          <li><button onClick={() => setActiveComponent('special')}>SPECIAL</button></li>
-          <li><button onClick={() => setActiveComponent('lunchHappyHour')}>LUNCH HAPPY HOUR</button></li>
-          <li><button onClick={() => setActiveComponent('catering')}>CATERING</button></li>
-        </ul>
+        <div id="menubar-btn-container">
+          <button className='menu-btn' id='online-border' onClick={() => setActiveComponent('menu')}>
+            <span className="transition"></span>
+            <span className="label">MENU</span>
+          </button>
+          <button className='menu-btn' id='online-border' onClick={() => setActiveComponent('special')}>
+            <span className="transition"></span>
+            <span className="label">SPECIAL</span>
+          </button>
+          <button className='menu-btn' id='online-border' onClick={() => setActiveComponent('lunchHappyHour')}>
+            <span className="transition"></span>
+            <span className="label">LUNCH HAPPY HOUR</span>
+          </button>
+          <button className='menu-btn' id='online-border' onClick={() => setActiveComponent('catering')}>
+            <span className="transition"></span>
+            <span className="label">CATERING</span>
+          </button>
+        </div>
       </div>
       <div id='menu-container'>
         {renderComponent()}

@@ -18,7 +18,7 @@
 
 #menu-supporting-text {
   text-align: center;
-  margin: 10px 0px;
+  margin: 10px 0px 50px 0px;
 }
 
 #button-box {
@@ -26,4 +26,11 @@
   justify-content: center;
   align-items: center;
   margin: 55px 0px 15px 0px;
+}
+
+#menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
 }
