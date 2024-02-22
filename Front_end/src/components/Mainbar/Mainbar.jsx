@@ -6,7 +6,6 @@ const Mainbar = () => {
   const navigate = useNavigate()
   return (
     <div id="menuBar">
-        
       <button id='logoBtn' onClick={() => {navigate('/')}}>BāoBāo</button>
 
       <div id="menubar-btn-container">

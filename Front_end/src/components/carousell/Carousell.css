@@ -1,0 +1,68 @@
+#displayDiv {
+  height: 100vh;
+}
+
+.transparentCover {
+
+}
+
+.rotate-slide{
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#border {
+  border-width: 5px;
+  border-style:solid;
+}
+
+button.menu-btn {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 17px;
+  padding: 1em 2.7em;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+span.label {
+  position: relative;
+  top: -1px;
+}
+
+span.transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: rgb(248, 36, 36);
+  /* background-color: rgba(16, 185, 129, 0.6); */
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button.menu-btn:hover .transition {
+  width: 14em;
+  height: 14em;
+}
+
+button.menu-btn:active {
+  transform: scale(0.97);
+}

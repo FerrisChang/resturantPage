@@ -3,6 +3,10 @@
   justify-content: space-between;
   align-items: center;
   background-color: 	rgb(240, 234, 214);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 #logoBtn {
@@ -62,4 +66,15 @@ button.menu-btn:active {
 #online-border {
   border-width: 5px;
   border-style:solid;
+}
+
+@media (min-width: 960px) and (max-width: 1129px) {
+  #menuBar {
+    flex-direction: column;
+  }
+}
+@media (max-width: 961px) {
+  #menubar-btn-container {
+    display: hidden;
+  }
 }
