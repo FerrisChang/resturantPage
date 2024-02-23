@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 const Mainbar = ({page}) => {
   const navigate = useNavigate()
   return (
-    <div id={`${page == 'home' ? "menuBar" : "otherMenuBar"}`}>
+    <div id={`${page == 'home' ? "menuBar" : "otherMenuBar"}`} className='default-params flex-container'>
       <button id='logoBtn' onClick={() => {navigate('/')}}>BāoBāo</button>
 
       <div id="menubar-btn-container">

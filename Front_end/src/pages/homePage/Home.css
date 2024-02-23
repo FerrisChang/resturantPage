@@ -1,12 +1,9 @@
 #first-deals {
-  display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #960703;
 }
 
 .deal-cards {
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -15,36 +12,14 @@
 }
 
 .deal-titles {
-  font-weight: bolder;
-  font-size: 36px;
-  color: white;
   margin: 5px 0px 15px 0px;
 }
 
 .deal-supporting {
-  color: white;
   margin: 5px 5px 15px 5px;
 }
 
-.deal-btn {
-  font-size: 15px;
-  font-weight: bold;
-  background-color: transparent;
-  border-style: solid;
-  padding: 15px;
-  color: white;
-  border-color: white;
-  margin: 10px;
-}
-
-.deal-btn:hover {
-  background-color: white;
-  color: #960703;
-}
-
 #second-deals {
-  background-color: #960703;
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -56,20 +31,15 @@
 
 .menu-card {
   margin: 0px 50px;
-}
-
-div.menu-card#right {
-  display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
   flex-direction: column;
   justify-content: center;
+}
+
+div#right {
+  align-items: flex-start;
 }
 
 div.menu-card#left {
-  display: flex;
-  flex-wrap: wrap;
   align-items: flex-end;
-  flex-direction: column;
-  justify-content: center;
 }

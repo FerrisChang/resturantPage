@@ -1,9 +1,6 @@
-#allMenusContainer {
-  background-color: #960703;
-}
 
-#information-container {
-  display: flex;
+
+.information-container {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
@@ -11,8 +8,6 @@
 }
 
 #menu-title {
-  font-weight: 700;
-  font-size: 44px;
   margin: 0px 5px 15px 5px;
 }
 
@@ -21,15 +16,7 @@
   margin: 10px 0px 50px 0px;
 }
 
-#button-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 55px 0px 15px 0px;
-}
-
-#menu-container {
-  display: flex;
+.menu-container {
   flex-direction: column;
   align-items: center;
   padding-top: 45px;

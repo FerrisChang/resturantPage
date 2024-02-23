@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './Menu.css'
 import Mainbar from '../../components/Mainbar/Mainbar'
+import Footer from '../../components/footer/Footer'
 import RegularMenu from '../../components/menus/mainMenu'
 import SpecialMenu from '../../components/menus/specialMenu'
 import LunchMenu from '../../components/menus/lunchHourMenu'
@@ -20,14 +21,14 @@ const Menu = () => {
   }
 
   return (
-    <div id='allMenusContainer'>
+    <div>
       <Mainbar />
-      <div id='information-container'>
+      <div className='information-container flex-container'>
         <h1 id='menu-title'>MENUS</h1>
-        <span id='menu-supporting-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br/>
+        <p id='menu-supporting-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br/>
         eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br/>
-        nisi ut aliquip ex ea commodo consequat. </span>
+        nisi ut aliquip ex ea commodo consequat. </p>
         <div id="menubar-btn-container">
           <button className='menu-btn' id='online-border' onClick={() => setActiveComponent('menu')}>
             <span className="transition"></span>
@@ -47,9 +48,10 @@ const Menu = () => {
           </button>
         </div>
       </div>
-      <div id='menu-container'>
+      <div className='menu-container flex-container'>
         {renderComponent()}
       </div>
+      <Footer />
     </div>
   )
 }

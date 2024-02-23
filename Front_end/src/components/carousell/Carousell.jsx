@@ -10,7 +10,7 @@ const Carousell = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       cycleDivs();
-    }, 90000); // Adjust the interval as needed
+    }, 7000); // Adjust the interval as needed
 
     return () => clearTimeout(timer); // Cleanup function to clear the timer
 

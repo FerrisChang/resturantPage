@@ -1,0 +1,38 @@
+.spacing {
+  margin-top: 10px;
+}
+
+.specialMenu-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-container {
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 20px;
+}
+
+#right {
+  margin-right: 10px;
+}
+
+#left {
+  margin-left: 10px;
+}
+
+/* depending if the last category container is at the end will determine if the last container will get a border*/
+.bottom-border {
+  border-image: linear-gradient(90deg, rgba(82,36,22,1) 0%, rgba(237,194,127,1) 68%);
+  border-image-slice: 1;
+  border-width: 2px;
+  border-bottom-style: solid;
+  padding-bottom: 15px;
+}
+
+.bottom-no-border {
+  padding-bottom: 15px;
+}
