@@ -1,0 +1,16 @@
+.location-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.location-information {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 25px;
+  margin: 15px;
+}
+
+.padding-bt {
+  padding-bottom: 15px;
+}
