@@ -20,7 +20,6 @@
 }
 
 #second-deals {
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -40,6 +39,52 @@ div#right {
   align-items: flex-start;
 }
 
-div.menu-card#left {
+div#left {
   align-items: flex-end;
+}
+
+@media (max-width: 1129px) {
+
+  .deal-titles {
+    text-align: center;
+  }
+
+  #first-deals {
+    flex-wrap: wrap;
+  }
+
+  #second-deals {
+    margin-bottom: 25px;
+  }
+
+  .deal-cards {
+    margin: 45px 0px;
+  }
+
+  .menu-card {
+    margin: 0px 0px;
+  }
+
+  .deal-pics {
+    width: 100%;
+  }
+
+  div.reverse-column {
+    flex-direction: column-reverse;
+  }
+
+  div#right {
+    align-items: center;
+    margin: 0px 25px;
+  }
+
+  div.forward-column {
+    flex-direction: column;
+  }
+
+  div#left {
+    align-items: center;
+    margin: 0px 25px;
+
+  }
 }

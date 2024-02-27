@@ -14,7 +14,7 @@ import dimsum from '../../assets/Dim-Sum-Begoni-Bistro.png'
 const Home = () => {
 
   return (
-    <div>
+    <div className='home-container'>
       <Mainbar page='home'/>
       <Carousell />
 
@@ -39,7 +39,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div id='second-deals' className='flex-container'>
+      <div id='second-deals' className='reverse-column flex-container'>
         <div className='menu-card flex-container' id='right'>
           <h1 className='deal-titles'>ANOUNCEMENT FILLER TEXT</h1>
           <p className='deal-supporting'>supporting text</p>
@@ -51,7 +51,7 @@ const Home = () => {
         <img  className='second-deal-pics' src={dumplingScene} alt="dumpling scene" />
       </div>
 
-      <div id='second-deals' className='flex-container'>
+      <div id='second-deals' className='flex-container forward-column'>
         <img className='second-deal-pics' src={dimsum} alt="#" />
         <div className='menu-card flex-container' id='left'>
           <h1 className='deal-titles'>ANOUNCEMENT FILLER TEXT</h1>

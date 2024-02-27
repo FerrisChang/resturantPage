@@ -1,5 +1,5 @@
-#displayDiv {
-  height: 100vh;
+#menuBar {
+  position: absolute;
 }
 
 .container {

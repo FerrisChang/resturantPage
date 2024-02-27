@@ -8,7 +8,7 @@ const GiftCard = () => {
     <div className='giftcard-container'>
       <Menubar />
       <div className='container'>
-        <div className='background-image' id='bc-catering'>
+        <div className='background-image' id='bc-gift'>
           <div className='overlay'></div>
           <div className='text'>
             <h1 className='large-text'>SEND A LUCKY GIFT!</h1>
