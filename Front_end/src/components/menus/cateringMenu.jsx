@@ -2,7 +2,7 @@ import React from 'react'
 import './cateringMenu.css'
 const cateringMenu = () => {
   return (
-    <div className='catering-container flex-container'>
+    <div className='catering-container flex-container load-in-animation'>
       <h1 className='catering-title'>TITLE PLACEHOLDER</h1>
       <button className='menu-btn' id='online-border' onClick={() => {}}>
         <span className="transition"></span>

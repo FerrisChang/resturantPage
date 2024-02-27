@@ -85,6 +85,10 @@ div#left {
   div#left {
     align-items: center;
     margin: 0px 25px;
+  }
 
+  img.second-deal-pics {
+    max-width: 525px;
+    width: 100%;
   }
 }

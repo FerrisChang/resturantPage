@@ -2,7 +2,7 @@ import React from 'react'
 import './specialMenu.css'
 const specialMenu = () => {
   return (
-    <div className='specialMenu-container flex-container'>
+    <div className='specialMenu-container flex-container load-in-animation'>
       <div className='column-container flex-container'>
         <div className='singleColumn' id='right'>
           <div className='category-container bottom-border'>

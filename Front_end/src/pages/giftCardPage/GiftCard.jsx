@@ -7,7 +7,7 @@ const GiftCard = () => {
   return (
     <div className='giftcard-container'>
       <Menubar />
-      <div className='container'>
+      <div className='container load-in-animation'>
         <div className='background-image' id='bc-gift'>
           <div className='overlay'></div>
           <div className='text'>

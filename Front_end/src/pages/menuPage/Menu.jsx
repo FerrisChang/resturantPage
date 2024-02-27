@@ -23,7 +23,7 @@ const Menu = () => {
   return (
     <div>
       <Mainbar />
-      <div className='information-container flex-container'>
+      <div className='information-container flex-container load-in-animation'>
         <h1 id='menu-title'>MENUS</h1>
         <p id='menu-supporting-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br/>
         eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>

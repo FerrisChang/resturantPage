@@ -9,7 +9,7 @@ const Locations = () => {
     <div>
       <Mainbar />
       <div className='flex-container location-container'>
-        <div className='flex-container location-information'>
+        <div className='flex-container location-information load-in-animation'>
           <h1 className='padding-bt'>NORTHERN TERRITORY, AUSTRALIA</h1>
           <p className='padding-bt'>1234 Filler address, Miltalie 5602</p>
           <h2 className='padding-bt'>OPEN 7 DAYS A WEEK!</h2>

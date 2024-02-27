@@ -18,7 +18,7 @@ const Home = () => {
       <Mainbar page='home'/>
       <Carousell />
 
-      <div id='first-deals' className='flex-container'>
+      <div id='first-deals' className='flex-container fade-in-animation'>
         <div className='deal-cards flex-container'>
           <img className='deal-pics' src={AssortedDumpling} alt="assorted dumplings" />
           <h1 className='deal-titles'>ANOUNCEMENT FILLER TEXT</h1>

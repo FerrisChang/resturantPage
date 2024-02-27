@@ -2,7 +2,7 @@ import React from 'react'
 import './lunchHourMenu.css'
 const lunchHourMenu = () => {
   return (
-    <div className='lunchHour-container flex-container'>
+    <div className='lunchHour-container flex-container load-in-animation'>
       <p className='lunchHour-support'>Check out our menu on Toast and follow us on social media to hear about <br/>
       weekly specials and rotating "faux que" vegetarian offerings.</p>
       <div className='column-container flex-container'>

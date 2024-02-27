@@ -21,7 +21,7 @@ const Carousell = () => {
 };
 
 return (
-    <div id='displayDiv'>
+    <div className='load-in-animation' id='displayDiv'>
         <div className='container' style={{ display: activeDivIndex === 0 ? 'flex' : 'none' }}>
           <div className='background-image' id='bc-one'>
             <div className='overlay'></div>
