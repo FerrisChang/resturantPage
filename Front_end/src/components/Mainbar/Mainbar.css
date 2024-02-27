@@ -86,11 +86,6 @@ div#hidden {
 }
 
 
-@media (max-width: 961px) {
-  #menubar-btn-container {
-    display: hidden;
-  }
-}
 
 @media (max-width: 1129px) {
   .background {

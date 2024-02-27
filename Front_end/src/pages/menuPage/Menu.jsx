@@ -29,22 +29,22 @@ const Menu = () => {
         eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br/>
         nisi ut aliquip ex ea commodo consequat. </p>
-        <div id="menubar-btn-container">
+        <div className='flex-container' id='menubar-container'>
           <button className='menu-btn' id='online-border' onClick={() => setActiveComponent('menu')}>
-            <span className="transition"></span>
-            <span className="label">MENU</span>
+            <span className='transition'></span>
+            <span className='label'>MENU</span>
           </button>
           <button className='menu-btn' id='online-border' onClick={() => setActiveComponent('special')}>
-            <span className="transition"></span>
-            <span className="label">SPECIAL</span>
+            <span className='transition'></span>
+            <span className='label'>SPECIAL</span>
           </button>
           <button className='menu-btn' id='online-border' onClick={() => setActiveComponent('lunchHappyHour')}>
-            <span className="transition"></span>
-            <span className="label">LUNCH HAPPY HOUR</span>
+            <span className='transition'></span>
+            <span className='label'>LUNCH HAPPY HOUR</span>
           </button>
           <button className='menu-btn' id='online-border' onClick={() => setActiveComponent('catering')}>
-            <span className="transition"></span>
-            <span className="label">CATERING</span>
+            <span className='transition'></span>
+            <span className='label'>CATERING</span>
           </button>
         </div>
       </div>

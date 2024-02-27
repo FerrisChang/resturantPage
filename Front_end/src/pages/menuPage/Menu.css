@@ -21,3 +21,11 @@
   align-items: center;
   padding-top: 45px;
 }
+
+@media (max-width: 600px) {
+  #menubar-container {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 223px;
+  }
+}
