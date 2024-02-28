@@ -132,7 +132,8 @@ button.menu-btn:active {
 }
 
 .picture-sizing {
-  height: 300px;
+  height: 30vh;
+  max-width: 75vw;
 }
 
 .special-text-size {

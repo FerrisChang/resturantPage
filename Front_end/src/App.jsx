@@ -9,7 +9,7 @@ import GiftCard from './pages/giftCardPage/GiftCard'
 
 function App() {
   return (
-    <div>
+    <>
       <Router>
         <Routes>
           <Route path='/' element={<Home />}/>
@@ -20,7 +20,7 @@ function App() {
           <Route path='/online_ordering' element={<Online />}/>
         </Routes>
       </Router>
-    </div>
+    </>
 
   )
 }

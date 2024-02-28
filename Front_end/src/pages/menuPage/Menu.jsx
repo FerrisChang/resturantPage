@@ -21,7 +21,7 @@ const Menu = () => {
   }
 
   return (
-    <div>
+    <div className='home-container'>
       <Mainbar />
       <div className='information-container flex-container load-in-animation'>
         <h1 id='menu-title'>MENUS</h1>
