@@ -25,10 +25,9 @@ const Menu = () => {
       <Mainbar />
       <div className='information-container flex-container load-in-animation'>
         <h1 id='menu-title'>MENUS</h1>
-        <p id='menu-supporting-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br/>
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br/>
-        nisi ut aliquip ex ea commodo consequat. </p>
+        <p id='menu-supporting-text' className='special-text-size'>Dim sum is not just a meal; it's a gastronomic experience that encompasses a wide range of delectable dishes, <br/>
+        each meticulously crafted to tantalize the senses. Rooted in the tea houses of ancient China, <br/>
+        dim sum has evolved into an intricate art form that showcases the culinary prowess of Chinese chefs. </p>
         <div className='flex-container' id='menubar-container'>
           <button className='menu-btn' id='online-border' onClick={() => setActiveComponent('menu')}>
             <span className='transition'></span>

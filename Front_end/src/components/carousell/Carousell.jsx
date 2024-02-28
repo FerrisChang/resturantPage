@@ -27,7 +27,7 @@ return (
             <div className='overlay'></div>
             <div className='text'>
               <h1>MONTHLY DESERT BOX</h1>
-              <p>When you sign-up for a special monthly desert box you will receive a assortment of chinas native deserts. <br />
+              <p className='special-text-size'>When you sign-up for a special monthly desert box you will receive a assortment of chinas native deserts. <br />
               This assortment box is great for different occasions or gifts for your loved ones.</p>
             </div>
           </div>
@@ -37,7 +37,7 @@ return (
             <div className='overlay'></div>
             <div className='text'>
               <h1>DAILY SPECIAL</h1>
-              <p>Everyday we offer specialties that our many different master chiefs have crafted.<br />
+              <p className='special-text-size'>Everyday we offer specialties that our many different master chiefs have crafted.<br />
               These special daily items will never be sold more than once week so come down to be able to try that days special treat!</p>
             </div>
           </div>
@@ -47,7 +47,7 @@ return (
             <div className='overlay'></div>
             <div className='text'>
               <h1>WE CATER NOW!!!</h1>
-              <p>We now offer catering for all of your different occasions!<br />
+              <p className='special-text-size'>We now offer catering for all of your different occasions!<br />
               Be the talk of your next event when you have an equally amazing catering for your events!<br />
               Please call ahead to book your catering now!</p>
             </div>

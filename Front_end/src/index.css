@@ -135,6 +135,10 @@ button.menu-btn:active {
   height: 300px;
 }
 
+.special-text-size {
+  font-size: 1rem;
+}
+
 /*adds border to the buttons on site*/
 #online-border {
   border-width: 2px;

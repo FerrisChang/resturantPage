@@ -11,8 +11,7 @@ import './mainMenu.css'
 const mainMenu = () => {
   return (
     <div className='mainMenu-container flex-container load-in-animation'>
-      <p className='mainMenu-support'>Check out our menu on Toast and follow us on social media to hear about <br/>
-      weekly specials and rotating "faux que" vegetarian offerings.</p>
+      <p className='mainMenu-support special-text-size'>Check out our menu on Toast and follow us on social media to hear about weekly specials</p>
       <button className='menu-btn' id='online-border' onClick={() => {}}>
         <span className="transition"></span>
         <span className="label">ORDER NOW</span>

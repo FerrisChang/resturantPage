@@ -12,8 +12,8 @@ const Online = () => {
           <div className='overlay'></div>
           <div className='text'>
             <h1 className='large-text'>COMING SOON!</h1>
-            <p className='message'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br />
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+            <p className='message'> Thank you for visiting the BaoBao page we will soon offer Online Ordering.<br/> 
+            Check back with us soon and make your next order a lucky one!</p>
           </div>
         </div>
       </div>
