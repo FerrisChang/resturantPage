@@ -26,9 +26,9 @@ return (
           <div className='background-image' id='bc-one'>
             <div className='overlay'></div>
             <div className='text'>
-              <h1>MONTHLY DUMPLING BOX</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br />
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+              <h1>MONTHLY DESERT BOX</h1>
+              <p>When you sign-up for a special monthly desert box you will receive a assortment of chinas native deserts. <br />
+              This assortment box is great for different occasions or gifts for your loved ones.</p>
             </div>
           </div>
         </div>
@@ -37,8 +37,8 @@ return (
             <div className='overlay'></div>
             <div className='text'>
               <h1>DAILY SPECIAL</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br />
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+              <p>Everyday we offer specialties that our many different master chiefs have crafted.<br />
+              These special daily items will never be sold more than once week so come down to be able to try that days special treat!</p>
             </div>
           </div>
         </div>
@@ -47,8 +47,9 @@ return (
             <div className='overlay'></div>
             <div className='text'>
               <h1>WE CATER NOW!!!</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br />
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+              <p>We now offer catering for all of your different occasions!<br />
+              Be the talk of your next event when you have an equally amazing catering for your events!<br />
+              Please call ahead to book your catering now!</p>
             </div>
           </div>
         </div>

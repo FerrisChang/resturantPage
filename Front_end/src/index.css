@@ -131,6 +131,10 @@ button.menu-btn:active {
   margin-right: 20px;
 }
 
+.picture-sizing {
+  height: 300px;
+}
+
 /*adds border to the buttons on site*/
 #online-border {
   border-width: 2px;
