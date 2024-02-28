@@ -1,6 +1,7 @@
 import './Mainbar.css'
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import Baozi from '../../assets/Bao.svg'
 
 const Mainbar = ({page}) => {
   const navigate = useNavigate()
@@ -22,7 +23,9 @@ const Mainbar = ({page}) => {
 
   return (
     <div id={`${page == 'home' ? "menuBar" : "otherMenuBar"}`} className='default-params flex-container'>
-      <button id='logoBtn' onClick={() => {navigate('/')}}>BāoBāo</button>
+      <button id='logoBtn' onClick={() => {navigate('/')}}>
+        <img src={Baozi} alt="logo"  className='logo-image'/>
+      </button>
 
       <div className="background">
         <button className={`${!clicked ? "menu__icon" : "menu__icon menu__hovering"}`} onClick={changeClick}>

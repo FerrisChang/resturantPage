@@ -8,11 +8,11 @@
 }
 
 #menuBar {
-  background-color: 	#960703;
+  background-color: 	#b6352f;
 }
 
 #otherMenuBar {
-  background-color: 	#6b0101;
+  background-color: 	#b6352f;
 }
 
 #logoBtn {
@@ -85,7 +85,9 @@ div#hidden {
   display: none;
 }
 
+img.logo-image {
 
+}
 
 @media (max-width: 1129px) {
   .background {
